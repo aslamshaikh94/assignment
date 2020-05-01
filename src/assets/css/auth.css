@@ -1,0 +1,35 @@
+.auth {
+  background-color: #fff;
+  height: calc(100vh - 50px);
+}
+.auth .authbanner {
+  background-image: url("../images/auth.jpg");
+  width: 60%;
+  height: 105%;
+  margin-top: -15px;
+  margin-bottom: -5px;
+  background-size: cover;
+}
+.auth .authform {
+  padding: 0 50px;
+  width: 40%;
+}
+.auth .authform .login {
+  background-color: #ff6501;
+}
+.auth .authform .btn {
+  border: none;
+  border-radius: 0;
+}
+.auth .authform .social .btn {
+  width: 49%;
+  margin: 0;
+}
+.auth .authform .facebook {
+  background-color: #3b5998;
+}
+.auth .authform .twitter {
+  background-color: #00aeed;
+}
+
+/*# sourceMappingURL=auth.css.map */

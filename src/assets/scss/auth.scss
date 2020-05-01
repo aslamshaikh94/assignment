@@ -1,0 +1,38 @@
+@import "./_variables";
+@import "./_inheritance";
+.auth{
+	// height: 100%;
+	background-color:$white;
+	height: calc(100vh - 50px);	
+	.authbanner{
+		background-image: url('../images/auth.jpg'); 
+		width: 60%;
+		height: 105%;
+		margin-top:-15px;
+		margin-bottom: -5px;
+		background-size: cover;
+	}
+	.authform{
+		padding: 0 50px;
+		width: 40%;
+		.login{
+			background-color:$orange;
+		}
+		.btn{
+			border:none;
+			border-radius: 0;
+		}
+		.social{
+			.btn{				
+				width: 49%;
+				margin: 0;				
+			}			
+		}
+		.facebook{
+			background-color: $facebook;
+		}
+		.twitter{
+			background-color: $twitter;
+		}
+	}
+}

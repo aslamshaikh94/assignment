@@ -1,0 +1,25 @@
+@import "./_variables";
+$colours: (
+	'white': $white,
+	'black': $black,
+	'blue': $blue,
+	'lgray': $lgray,
+	'gray': $gray,
+	'red': $red,
+	'orange': $orange,
+	'green': $green,
+);
+
+/* generate helper classes */
+@each $name, $hex in $colours {
+	.#{$name} {
+		color: #{$hex}
+	}
+	.bg_#{$name}{
+		background-color: #{$hex}
+	}
+	.btn_#{$name}{
+		background-color: #{$hex};
+		color: $white;		
+	}
+}
